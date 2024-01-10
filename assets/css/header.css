@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    border: none;
+    width: 100%;
+    background-color: rgb(247, 160, 177);
+    height: 70px;
+    justify-content: center;
+}
+
+.header-ul{
+    display: flex;
+}
+
+.header-li{
+    list-style-type: none;
+    padding: 15px 35px;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#fire {
+    background-color: #ee7f30;
+}
+
+#water {
+    background-color: #678fee;
+}
+
+#grass {
+    background-color: #77c850;
+}
+
+#rock {
+    background-color: #b8a137;
+}
+
+#ghost {
+    background-color: #6e5896;
+}
